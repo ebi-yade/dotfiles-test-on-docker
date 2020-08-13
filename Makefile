@@ -11,3 +11,4 @@ specify-shell:
 	cd ../.. && \
 	docker build docker/other_shell/ -t dotfiles-test
 	docker run -w /root -it dotfiles-test:latest $(SHELL)
+
