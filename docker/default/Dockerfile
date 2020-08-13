@@ -23,9 +23,3 @@ RUN yum -y install \
 RUN yum -y install zsh fish
 
 RUN yum -y upgrade && yum clean all
-
-# set locale
-RUN localedef -f UTF-8 -i ja_JP ja_JP.UTF-8
-ENV LANG="ja_JP.UTF-8" \
-    LANGUAGE="ja_JP:ja" \
-    LC_ALL="ja_JP.UTF-8"
