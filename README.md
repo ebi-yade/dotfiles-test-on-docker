@@ -35,3 +35,4 @@ docker run -w /root -it dotfiles-test:latest <shell>
 ## Awesome dotfiles repos
 
 - [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish)
