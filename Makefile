@@ -9,5 +9,5 @@ specify-shell:
 	cp Dockerfile.bak Dockerfile && \
 	sed -i.bak -e "s/shellNameHere/$(SHELL)/g" Dockerfile && \
 	cd ../.. && \
-	docker build docker/ja_jp/ -t dotfiles-test
+	docker build docker/other_shell/ -t dotfiles-test
 	docker run -w /root -it dotfiles-test:latest $(SHELL)
