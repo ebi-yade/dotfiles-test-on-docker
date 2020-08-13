@@ -13,11 +13,12 @@ RUN yum -y install \
         shadow-utils \
         procps \
         wget \
+        make \
         openssh-server \
         openssh-clients \
         which \
         iproute \
-        e2fsprogs
+        e2fsprogs 
 
 # install shell
 RUN yum -y install zsh fish

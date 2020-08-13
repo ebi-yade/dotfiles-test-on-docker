@@ -13,6 +13,7 @@ RUN yum -y install \
         shadow-utils \
         procps \
         wget \
+        make \
         openssh-server \
         openssh-clients \
         which \
